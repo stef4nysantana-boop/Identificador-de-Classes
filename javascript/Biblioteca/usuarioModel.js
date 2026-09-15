@@ -1,3 +1,5 @@
+import { Pessoa } from "./pessoaModel.js";
+
 export class Usuario extends Pessoa {
 
     constructor(nome, cpf, id_usuario, matriculaUsuario){

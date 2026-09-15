@@ -1,8 +1,9 @@
-import { Biblioteca } from "./BibliotecaModel";
-import { Livro } from "./livroModel";
-import { Usuario } from "./usuarioModel";
-import { Funcionario } from "./funcionarioModel";
-import { Emprestimo } from "./emprestimoModel";
+import { Biblioteca } from "./BibliotecaModel.js";
+import { Livro } from "./livroModel.js";
+import { Pessoa } from "./pessoaModel.js";
+import { Usuario } from "./usuarioModel.js";
+import { Funcionario } from "./funcionarioModel.js";
+import { Emprestimo } from "./emprestimoModel.js";
 
 const bibliotecaCentral = new Biblioteca(1, "Biblioteca Central");
 
